@@ -1,0 +1,12 @@
+twig:
+    file_name_pattern: '*.twig'
+
+    # Placeholder until the admin reads the messages table.
+    globals:
+        unread: 3
+        admin_name: 'Admin'
+        admin_initial: 'A'
+
+when@test:
+    twig:
+        strict_variables: true
